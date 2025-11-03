@@ -20,13 +20,13 @@ namespace Classes
 
             Customer customer = new Customer();
             customer.ID = 1;
-            customer.FirstName = "Emre";
-            customer.LastName = "Kaya";
-            customer.City = "Adıyaman";
+            customer.FirstName = "AAAA";
+            customer.LastName = "BBBB";
+            customer.City = "CCCC";
 
             Customer customer2 = new Customer
             {
-                ID = 2, FirstName = "Ragıp", LastName = "Görmez", City = "Sakarya"
+                ID = 2, FirstName = "XXXXX", LastName = "YYYYY", City = "ZZZZZ"
             };
 
             Console.WriteLine(customer2.City);
